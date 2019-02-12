@@ -1,8 +1,12 @@
 # wallet-api
 
-exploratory api for wallet app
+An exploratory api for wallet app
 
-This is a simple NodeJs based API using Firebase Cloud functions to simulate the various endpoints for the proposed wallet app API. It runs Express as its server engine, using the Firebase Admin SDK to process and route requests to Firebase.
+A simple NodeJs based API using Firebase Cloud functions to simulate the various endpoints for the proposed wallet app API. It runs Express as its server engine, using the Firebase Admin SDK to process and route requests to Firebase.
+
+## Base URL
+
+https://funpay-demo-api.firebaseapp.com/
 
 ## Endpoints
 
