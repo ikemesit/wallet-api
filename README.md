@@ -7,5 +7,7 @@ This is a simple NodeJs based API using Firebase Cloud functions to simulate the
 ## Endpoints
 
 - /user
-  - GET - returns the UserRecord Object generated from Firebase.auth
-  - POST - Creates a new UserRecord in the Firebase Console, returns a UserRecord Object. Accepts email, password, phoneNumber, displayName as parameters.
+  - GET - returns the UserRecord Object generated from Firebase.auth. Requires a UID as a URL query string.
+    USAGE: https://funpay-demo-api.firebaseapp.com/user/{UID}
+  - POST - Creates a new UserRecord in the Firebase Console, returns a UserRecord Object. Requires:
+    email, password, phoneNumber, displayName as HTTP request body values.
